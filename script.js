@@ -6,37 +6,43 @@
 // let b=2
 
 
-// function vurma(a, b, cedvel) {
-//   result = a * b;
-//   cedvel(result);
-// }
-// function bolme(a, b, cedvel) {
-//   result = a / b;
-//   cedvel(result);
-// }
-// function toplama(a, b, cedvel) {
-//     result = a + b;
-//     cedvel(result);
-//   }
-//   function cixma(a, b, cedvel) {
-//     result = a - b;
-//      cedvel(result);
-//   }
-//   function OutPut(result) {
-//     console.log(result);
-//   }
+function vurma(a, b, cedvel) {
+  result = a * b;
+  cedvel(result);
+}
+function bolme(a, b, cedvel) {
+  result = a / b;
+  cedvel(result);
+}
+function toplama(a, b, cedvel) {
+    result = a + b;
+    cedvel(result);
+  }
+  function cixma(a, b, cedvel) {
+    result = a - b;
+     cedvel(result);
+  }
+  function OutPut(result) {
+    console.log(result);
+  }
   
-//   let choose = "bolme";
-//   switch (choose) {
-//     case "toplama":
-//       toplama(a, b, OutPut);
-//     case "cixma":
-//       cixma(a, b, OutPut);
-//     case "vurma":
-//       vurma(a, b, OutPut);
-//     case "bolme":
-//       bolme(a, b, OutPut);
-//       }
+  let choose = "bolme";
+  switch (choose) {
+    case "toplama":
+      toplama(a, b, OutPut);
+        break; 
+    case "cixma":
+      cixma(a, b, OutPut);
+      break;
+    case "vurma":
+      vurma(a, b, OutPut);
+      break;
+    case "bolme":
+      bolme(a, b, OutPut);
+      break;
+    default:
+        break;
+      }
 
 //   sual2 //  Toplamda 3 funksiyaniz olacaq.
 // Verilən arrayda ilk funksiyada tək ədədləri tapacaqsız.
